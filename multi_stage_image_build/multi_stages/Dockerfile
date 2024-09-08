@@ -6,7 +6,7 @@ COPY httpserver.go .
 RUN go build -o myhttpserver ./httpserver.go
 
 
-From alpine:latest
+From alpine:3.20.3
 
 WORKDIR /root/
 COPY --from=builder /go/src/myhttpserver .
