@@ -1,4 +1,4 @@
-From ubuntu:14.04
+From ubuntu:trusty-20190425
 
 COPY ./myhttpserver /root/myhttpserver
 RUN chmod +x /root/myhttpserver
