@@ -1,4 +1,4 @@
-From alpine:3.20.3
+From alpine:3.21.0
 
 COPY ./myhttpserver /root/myhttpserver
 RUN chmod +x /root/myhttpserver
